@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 1px 3px 10px 0px gray;
+}
+.container {
+  margin-left: 50px;
+}
+.logo-img {
+  margin-top: 10px;
+  margin-left: 50px;
+  padding-bottom: 10px;
+  height: 65px;
+  box-shadow: 20px;
+}
+.navigation-container {
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.navigation-list {
+  display: flex;
+}
+.navigation-item {
+}
+.navigation-item-text {
+  text-decoration: none;
+  margin-right: 180px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.search-button {
+  margin: 0px 70px;
+}
+.project-solution-section {
+  margin-top: 50px;
+}
+.project-solution {
+  width: 1770px;
+  height: 620px;
+  background: url(/img/low-angle-photo-of-balconies-2462015\ 1.png);
+  border-radius: 32px;
+}
+.project-solution-title {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 85px;
+  color: white;
+  padding-left: 80px;
+  padding-top: 100px;
+}
+.project-solution-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+  padding-left: 80px;
+  padding-top: 24px;
+}
+.project-solution-button {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 37px;
+  background-color: #ff9900;
+  border-radius: 16px;
+  width: 200px;
+  height: 40px;
+  margin-left: 80px;
+  margin-top: 90px;
+}
+.solution-button-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+}
