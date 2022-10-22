@@ -35,13 +35,14 @@ body {
 }
 .navigation-item-text {
   text-decoration: none;
-  margin-right: 180px;
+  margin-right: 100px;
   font-size: 18px;
   font-weight: 600;
   color: black;
 }
 .search-button {
   margin: 0px 70px;
+  margin-left: 160px;
 }
 .project-solution-section {
   margin-top: 50px;
@@ -86,4 +87,17 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: white;
+}
+.about-us-title {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.about-us-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 1235px;
+  margin-bottom: 50px;
 }
