@@ -12,6 +12,7 @@ body {
   box-shadow: 1px 3px 10px 0px gray;
 }
 .container {
+  width: 1770px;
   margin-left: 50px;
 }
 .logo-img {
@@ -267,10 +268,26 @@ body {
 .hww-image {
   position: absolute;
   top: 1940px;
-  left: 900px;
+  left: 950px;
   width: 870px;
   height: 460px;
   border-radius: 32px;
 }
-
-
+.FAQ-line {
+  color: grey;
+}
+.FAQ-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 39px;
+  margin-bottom: 39px;
+}
+.FAQ-plus-image {
+width: 50px;
+height: 50px;
+}
+.FAQ-question-text {
+  font-weight: 700;
+  font-size: 24px;
+}
