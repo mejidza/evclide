@@ -187,7 +187,7 @@ body {
   margin-left: 50px;
 }
 .right-image-item {
-margin-bottom: 20px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -198,3 +198,79 @@ margin-bottom: 20px;
   margin-left: 50px;
   padding-right: 118px;
 }
+.steps-nav {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+}
+
+.steps-item-text {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.how-we-work-title {
+  margin-top: 45px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.how-we-work-subtitle-text {
+  width: 758px;
+  height: 352px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+.how-we-work-first-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  background: #ff9900;
+  border-radius: 16px;
+  text-decoration: none;
+}
+.how-we-work-first-button-text {
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.how-we-work-second-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 145px;
+  margin-left: 32px;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  text-decoration: none;
+}
+.how-we-work-second-button-text {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.button-hww-container {
+  display: flex;
+  margin-top: 20px;
+}
+.hww-image {
+  position: absolute;
+  top: 1940px;
+  left: 900px;
+  width: 870px;
+  height: 460px;
+  border-radius: 32px;
+}
+
+
