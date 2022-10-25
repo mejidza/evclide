@@ -284,10 +284,141 @@ body {
   margin-bottom: 39px;
 }
 .FAQ-plus-image {
-width: 50px;
-height: 50px;
+  width: 50px;
+  height: 50px;
 }
 .FAQ-question-text {
   font-weight: 700;
   font-size: 24px;
+}
+.footer-container {
+  background-color: black;
+  position: absolute;
+  width: 1864px;
+  margin-top: 100px;
+}
+.footer-logo {
+  width: 224px;
+  height: 72px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.footer-option-container {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.footer-option-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  color: #cacaca;
+  margin-top: 6px;
+}
+.footer-option-link {
+  text-decoration: none;
+}
+.footer-icon-container {
+  margin-left: 25px;
+  margin-top: 90px;
+  padding-bottom: 50px;
+}
+.footer-icon {
+  margin-left: 25px;
+}
+.footer-icon-link {
+  text-decoration: none;
+}
+.application-block {
+}
+.application-text {
+  position: absolute;
+  width: 408px;
+  height: 59px;
+  left: 700px;
+  top: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #cacaca;
+}
+.footer-fullname-input {
+position: absolute;
+width: 570px;
+height: 60px;
+left: 700px;
+top: 125px;
+background: #414141;
+border-radius: 16px;
+outline: none;
+color: grey;
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+padding-left: 30px
+}
+.footer-email-input {
+position: absolute;
+width: 570px;
+height: 60px;
+left: 700px;
+top: 215px;
+background: #414141;
+border-radius: 16px;
+outline: none;
+color: grey;
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+padding-left: 30px
+}
+.footer-textarea {
+position: absolute;
+width: 570px;
+height: 150px;
+left: 700px;
+top: 315px;
+background: #414141;
+border-radius: 16px;
+outline: none;
+color: grey;
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+padding-left: 30px;
+padding-top: 30px;
+}
+.footer-button {
+  
+}
+.footer-button-text {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: absolute;
+width: 269px;
+height: 58px;
+left: 700px;
+top: 520px;
+background: #FF9900;
+border-radius: 16px;
+color: white;
+}
+.footer-text {
+position: absolute;
+width: 363px;
+height: 320px;
+left: 1430px;
+top: 137px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #CACACA;
 }
