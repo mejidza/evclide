@@ -492,6 +492,17 @@ body {
   background-color: #e1670e;
   
 }
-
-
+.footer-option-text:hover {
+  color: #e1670e;
+}
+.FAQ-question-button {
+  text-decoration: none;
+  color: black;
+}
+.FAQ-question-button:hover {
+  color: #ffb84d;
+}
+.FAQ-question-button:active {
+  color: #e1670e;
+}
 
