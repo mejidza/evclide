@@ -466,24 +466,31 @@ body {
 }
 .how-we-work-first-button:active {
   background-color: #e1670e;
-  border: 3px solid #e1670e;
+  
 }
 .how-we-work-second-button:hover {
   background-color: #666666;
-  color:white
   
 }
 .how-we-work-second-button:active {
   background-color: black;
+  
+}
+.how-we-work-second-button-text:hover {
   color:white
   
 }
-.footer-button:hover {
+.how-we-work-second-button-text:active {
+  background-color: black;
+  color:white
+  
+}
+.footer-button-text:hover {
   background-color: #ffb84d;
 }
-.footer-button:active {
+.footer-button-text:active {
   background-color: #e1670e;
-  border: 3px solid #e1670e;
+  
 }
 
 
