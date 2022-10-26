@@ -344,81 +344,147 @@ body {
   color: #cacaca;
 }
 .footer-fullname-input {
-position: absolute;
-width: 570px;
-height: 60px;
-left: 700px;
-top: 125px;
-background: #414141;
-border-radius: 16px;
-outline: none;
-color: grey;
-font-family: "Montserrat";
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-padding-left: 30px
+  position: absolute;
+  width: 570px;
+  height: 60px;
+  left: 700px;
+  top: 125px;
+  background: #414141;
+  border-radius: 16px;
+  outline: none;
+  color: grey;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 30px;
 }
 .footer-email-input {
-position: absolute;
-width: 570px;
-height: 60px;
-left: 700px;
-top: 215px;
-background: #414141;
-border-radius: 16px;
-outline: none;
-color: grey;
-font-family: "Montserrat";
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-padding-left: 30px
+  position: absolute;
+  width: 570px;
+  height: 60px;
+  left: 700px;
+  top: 215px;
+  background: #414141;
+  border-radius: 16px;
+  outline: none;
+  color: grey;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 30px;
 }
 .footer-textarea {
-position: absolute;
-width: 570px;
-height: 150px;
-left: 700px;
-top: 315px;
-background: #414141;
-border-radius: 16px;
-outline: none;
-color: grey;
-font-family: "Montserrat";
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-padding-left: 30px;
-padding-top: 30px;
+  position: absolute;
+  width: 570px;
+  height: 150px;
+  left: 700px;
+  top: 315px;
+  background: #414141;
+  border-radius: 16px;
+  outline: none;
+  color: grey;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 30px;
+  padding-top: 30px;
 }
 .footer-button {
-  
 }
 .footer-button-text {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-position: absolute;
-width: 269px;
-height: 58px;
-left: 700px;
-top: 520px;
-background: #FF9900;
-border-radius: 16px;
-color: white;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 269px;
+  height: 58px;
+  left: 700px;
+  top: 520px;
+  background: #ff9900;
+  border-radius: 16px;
+  color: white;
 }
 .footer-text {
-position: absolute;
-width: 363px;
-height: 320px;
-left: 1430px;
-top: 137px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 32px;
-color: #CACACA;
+  position: absolute;
+  width: 363px;
+  height: 320px;
+  left: 1430px;
+  top: 137px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #cacaca;
 }
+/* hover-active-focus section */
+.navigation-item-text:hover {
+  color: #ff9900;
+}
+.project-solution-button:hover {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 37px;
+  background-color: #ffb84d;
+  border-radius: 16px;
+  width: 200px;
+  height: 40px;
+  margin-left: 80px;
+  margin-top: 90px;
+}
+.project-solution-button:active {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 37px;
+  background-color: #e1670e;
+  border-radius: 16px;
+  width: 200px;
+  height: 40px;
+  margin-left: 80px;
+  margin-top: 90px;
+}
+.about-us-button:hover {
+  background-color: #ff9900;
+}
+.about-us-button:active {
+  background-color: #e1670e;
+  border: 3px solid #e1670e;
+}
+.steps-item-text:hover {
+  color: #ff9900;
+}
+.how-we-work-first-button:hover {
+  background-color: #ffb84d;
+}
+.how-we-work-first-button:active {
+  background-color: #e1670e;
+  border: 3px solid #e1670e;
+}
+.how-we-work-second-button:hover {
+  background-color: #666666;
+  color:white
+  
+}
+.how-we-work-second-button:active {
+  background-color: black;
+  color:white
+  
+}
+.footer-button:hover {
+  background-color: #ffb84d;
+}
+.footer-button:active {
+  background-color: #e1670e;
+  border: 3px solid #e1670e;
+}
+
+
+
